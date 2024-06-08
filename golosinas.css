@@ -22,15 +22,17 @@ nav a:hover {
 .golosinas {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .product {
+    display: flex;
     width: 30%;
     margin-bottom: 20px;
 }
 
 .product img {
+    display: flex;
     max-width: 100%;
     height: auto;
 }
