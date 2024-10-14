@@ -3,42 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Los Cuper</title>
-    <link rel="shortcut icon" href="assets/images/los cuper.png" type="image/x-icon">
+    <title>Roticeria Paris</title>
+    <link rel="shortcut icon" href="assets/images/paris.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="Golosinas.html">Golosinas</a>
-        <a href="Bebidas.html">Bebidas</a>
-        <a href="Almacen.html">Almacen</a>
-        <a href="Pizzeria.html">Pizzeria</a>
-        <a href="Pancheria.html">Pancheria</a>
-    </nav>
-    <div class="banner">
-        <h1>Los Cuper</h1>
-    </div>
-    <div class="container">
-        <h1>Los invitamos a conocer Nuestros Locales.</h1>
-        <p>Aqui encontraran la informacion detallada de cada servicio que ofrecemos.</p>
-    </div>
-    <div class="card">
-        <h3>Kiosco Laplacette</h3>
-        <p>Contenido de la primera card.</p>
-    </div>
-    <div class="card">
-        <h3>Kiosco La Plaza</h3>
-        <p>Contenido de la segunda card.</p>
-    </div>
-    <div class="card">
-        <h3>Pizzeria Gambino</h3>
-        <p>Contenido de la tercera card.</p>
-    </div>
+
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="assets/images/paris.png" alt="Logo Los Cuper">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Golosinas.html">Golosinas</a></li>
+                    <li><a href="Pizzeria.html">Pizzería</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="banner-text">
+            <h1>El buen comer, también es amor</h1>
+            <button class="btn">
+                <a href="#productos">Realizar Pedido</a>
+            </button>
+        </div>
+    </section>
+
+    <main>
+        <section class="intro">
+            <div class="intro-content">
+                <div class="intro-text">
+                    <h1>Disfruta!!</h1>
+                    <p>Descubre nuestros maravillosos sabores y sorpréndete con cada receta.</p>
+                    <button class="btn">Explorar</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="products" id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="assets/images/pizza.jpeg" alt="Producto 1">
+                    <h3>Pizza</h3>
+                    <p>$20.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="assets/images/empanadas.jpeg" alt="Producto 2">
+                    <h3>Empanadas</h3>
+                    <p>$25.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="assets/images/tacos.jpeg" alt="Producto 3">
+                    <h3>Tacos</h3>
+                    <p>$15.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="assets/images/hamburgesa.jpeg" alt="Producto 4">
+                    <h3>Hamburguesas</h3>
+                    <p>$40.00</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer>
-        <a href="#">Facebook</a>
-        <a href="#">Instagram</a>
-        <p>Contacto: info@miweb.com</p>
+        <p>Contacto: Rotiparis@Gmail.com | Redes sociales: <a href="#">Facebook</a>, <a href="#">Instagram</a></p>
     </footer>
+
 </body>
 </html>
